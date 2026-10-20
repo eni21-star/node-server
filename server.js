@@ -14,7 +14,7 @@ http.createServer((req, res) => {
   }
 
   res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
-  res.end('welcome to node server V1 Homepage');
+  res.end('welcome to node server V2 Homepage');
 }).listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
